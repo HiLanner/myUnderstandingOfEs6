@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>let</title>
+</head>
+<script type="text/javascript">
+	// let count = 30;
+	// console.log("let1 count" + count);
+	// if (true) {
+	// 	let count = 40;
+	//     console.log("let count" + count);
+	// }
+	// console.log("let2 count" + count);
+	// const count = 30;
+	// const count1;
+	// console.log("const1 count" + count);
+	// if (true) {
+	// 	const count = 40;
+	//     console.log("const count" + count);
+	// }
+	// const count = 50;
+	// console.log("const2 count" + count);
+	// let x = 'outer value';
+	// function conLet() {
+	  // start TDZ for x
+	//   console.log(x);
+	//   let x = 'inner inner value'; // declaration ends TDZ for x
+	// };
+	// conLet();    // "undefined"
+//console.log(typeof value);     // "undefined"
+//console.log(typeof value1);     // "undefined"
+
+// if (true) {
+// 	console.log(typeof value); 
+//     let value = "blue";
+// }
+// var funcs = [];
+// for(let i = 0; i < 10; i++){
+// 	funcs.push(function(){
+// 		console.log(i);
+// 	});
+// }
+// funcs.forEach(function(func){
+// 	func()
+// })
+// var funcs = [],
+//     object = {
+//     	a: true,
+//     	b: true,
+//     	c: true
+//     };
+// for(let key in object) {
+// 	funcs.push(function(){
+// 		console.log(key);
+// 	})
+// }
+// funcs.forEach(function(func){
+// 	func();
+// })
+// const in the loop
+// var funcsConst = [];
+// for(const i = 0; i < 10; i++){
+// 	funcsConst.push(function(){
+// 		console.log(i);
+// 	})
+// }
+// const in for-in
+// var funcsConst1 = [],
+//     constObj = {
+//     	a: true,
+//     	b: true,
+//     	c: true
+//     };
+// for(const key in constObj){
+// 	funcsConst1.push(function(){
+// 		console.log(key);
+// 	})
+// }
+// funcsConst1.forEach(function(func){
+// 	func();
+// })
+let RegExp = "hello";
+console.log(RegExp);
+console.log(window.RegExp == RegExp);
+console.log(window.RegExp === RegExp);
+const ncz = 'Hi!';
+console.log(ncz);
+console.log("ncz" in window);
+</script>
+<body>
+
+</body>
+</html>

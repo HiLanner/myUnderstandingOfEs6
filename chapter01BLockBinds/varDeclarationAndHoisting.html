@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>var定义和变量提升</title>
+</head>
+<script type="text/javascript">
+	function getValue(condition){
+		// console.log("1////"+value);
+		if (condition) {
+			let value = "blue";
+			console.log("2////"+value);
+		} else {
+			console.log("3////"+value);
+			return null;
+		}
+		console.log("4////"+value);
+	}
+	getValue(true);
+</script>
+<body>
+
+</body>
+</html>
